@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ImageView
+        android:id = "@+id/image_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:background="@drawable/salamander"
+        android:contentDescription="@string/image_description"/>
+
+    <EditText
+        android:id="@+id/Search_Term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint"
+        android:inputType="textAutoComplete"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button1"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/load_previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        android:text="@string/main_button2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/load_favourites"
+        android:layout_width="match_parent"
+        android:text="@string/main_button3"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

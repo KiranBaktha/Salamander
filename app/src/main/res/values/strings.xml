@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Salamander</string>
+    <string name="hint">Enter Search Keyword</string>
+    <string name="image_description">Main Logo</string>
+    <string name="main_button1">Search</string>
+    <string name="main_button2">Load Previous Search</string>
+    <string name="main_button3">Load Favourite Articles</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name = "Save">Save the Article</string>
+    <string name = "exit">Exit</string>
+    <string name = "goback">Go Back</string>
+</resources>
